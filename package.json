@@ -1,0 +1,20 @@
+{
+  "name": "apitesting",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "dependencies": {
+    "chakram": "^1.5.0",
+    "expect": "^22.4.3",
+    "mochawesome": "^3.0.2",
+    "node-regexp": "^0.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Amit Kumar",
+  "license": "ISC"
+}
