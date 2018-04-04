@@ -1,6 +1,6 @@
 var fs = require('fs');
 // file is included here:
-eval(fs.readFileSync('./Test/Schema.js')+'');
+eval(fs.readFileSync('./Chakram-API/Test/Schema.js')+'');
 var chakram = require('chakram'),
 expect = chakram.expect;
 

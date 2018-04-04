@@ -1,7 +1,6 @@
 var chakram = require('chakram'),
-//var expect = require('expect'),
 expect = chakram.expect;
-//var regexp = require('node-regexp'),
+
 
 
   before(function() {

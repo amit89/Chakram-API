@@ -28,3 +28,15 @@ var expectScheme2 = {
       'body'
    ]
 };
+
+var dogList = {
+    type: "object",
+    properties: {
+       status    : {type: 'string'},
+       message : {type: 'object'}
+   },
+   required: [
+      'status',
+      'message'
+   ]
+};
